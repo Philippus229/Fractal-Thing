@@ -49,7 +49,7 @@ def render_fractal():
 pygame.init()
 surface = pygame.display.set_mode(windowsize)
 pygame.display.set_caption("Fractal Thing")
-clock = pygame.time.Clock();
+clock = pygame.time.Clock()
 running = True
 while running:
     clock.tick(60)
